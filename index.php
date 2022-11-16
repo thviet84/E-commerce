@@ -76,7 +76,7 @@
 		<h4>Laptop buying guide<br> Essential tips to know before you buy</h4>
 	</div>
 	<div class="offer-container animate__animated animate__fadeInLeftBig">
-		<h5>What are our benefits?</h5>
+		<h5>What are our benefit?</h5>
 		<div class="offer-box">
 			<div class="offer">
 				<p>Member exclusive deals</p>
