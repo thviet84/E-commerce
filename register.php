@@ -52,7 +52,7 @@
             <script>
                 Swal.fire({
                     icon: 'error',
-                    title: 'Somebody already use that email!'
+                    title: 'Email adredy exist!'
                 });
             </script>
             <style>
