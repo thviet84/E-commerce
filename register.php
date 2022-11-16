@@ -24,7 +24,7 @@
             <script>
                 Swal.fire({
                     icon: 'error',
-                    title: 'Password must be 8-12 characters!'
+                    title: 'Password must be 8-16 characters!'
                 });
             </script>
             <style>
@@ -49,6 +49,20 @@
             <?php
         }
         if($_GET['error'] == "invalidEmail"){?>
+            <script>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Invalid email!'
+                });
+            </script>
+            <style>
+               input[type=email]{
+                    border: 2px solid red;
+                }
+            </style>
+            <?php
+        }
+        if($_GET['error'] == "emailExists"){?>
             <script>
                 Swal.fire({
                     icon: 'error',
